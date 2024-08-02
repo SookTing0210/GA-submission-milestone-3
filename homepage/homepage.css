@@ -1,0 +1,70 @@
+.container {
+    padding: 20px 80px 40px;
+}
+
+.container .button {
+    width: fit-content;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: fit-content;
+    margin-left: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.element-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.element {
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+}
+
+.element .top-img {
+    height: 240px;
+    width: 100%
+}
+.element .top-img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.element .bottomContent {
+    padding: 12px;
+}
+
+.element .bottomContent .title {
+    font-size: 16px;
+    font-weight: Bold;
+}
+
+.element .bottomContent .content {
+    margin: 18px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.bottomContent a.view-more {
+    text-decoration: underline;
+    color: #1B65F8;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+}
+
+
+
